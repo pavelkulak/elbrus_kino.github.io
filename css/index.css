@@ -21,11 +21,10 @@ body {
   font-weight: 600;
   font-size: 21px;
   color: #ffffff;
-  position: relative;
 }
 
-.logo {
-  width: 140.06px;
+.logo svg {
+  width: 140px;
   height: 48px;
 }
 
@@ -69,6 +68,11 @@ body {
 
 .search-icon:hover {
   background-image: url("../img/icon_search_on.svg");
+}
+
+.user img {
+  width: 44px;
+  height: 44px;
 }
 
 h2 {
@@ -207,4 +211,132 @@ h2 {
 .content2 a {
   text-decoration: none;
   color: inherit;
+}
+
+.menu-smart {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 18px;
+  }
+
+  .film3 {
+    display: none;
+  }
+
+  .menu {
+    width: 60%;
+  }
+
+  .logo svg {
+    width: 116px;
+    height: 48px;
+  }
+
+  .user img {
+    width: 36px;
+    height: 36px;
+  }
+  .search-icon {
+    width: 16.41px;
+    height: 17px;
+  }
+
+  .big-arrow {
+    width: 40px;
+    height: 48px;
+    margin-top: 30px;
+  }
+
+  .content2 .big-arrow {
+    width: 40px;
+    height: 48px;
+    margin-top: 100px;
+  }
+
+  .content {
+    margin: 0 20px;
+  }
+
+  h2 {
+    margin: 5% 20px;
+  }
+  .film6 {
+    display: none;
+  }
+
+  .content2 {
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo svg {
+    width: 100px;
+    height: 34px;
+    margin-left: 16px;
+    margin-right: 70px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-icon {
+    width: 25px;
+    height: 26px;
+  }
+
+  .menu-smart {
+    display: block;
+    margin-right: 16px;
+  }
+
+  .film2 {
+    display: none;
+  }
+
+  .film5 {
+    display: none;
+  }
+
+  .film1 .film-image {
+    width: 297px;
+    height: 168px;
+  }
+  .film4 .film-image {
+    width: 297px;
+    height: 447px;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .little-arrow {
+    display: none;
+  }
+
+  .big-arrow {
+    width: 8px;
+    height: 24px;
+    margin-top: 30px;
+  }
+
+  .content2 .big-arrow {
+    width: 8px;
+    height: 24px;
+    margin-top: 100px;
+  }
 }
